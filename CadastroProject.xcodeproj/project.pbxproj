@@ -56,15 +56,31 @@
 		53FDAE792A64C4AB006A902C /* CadastroProject */ = {
 			isa = PBXGroup;
 			children = (
+				53FDAE8F2A64CA3C006A902C /* Cadastro */,
+				53FDAE8E2A64CA34006A902C /* Login */,
 				53FDAE7A2A64C4AB006A902C /* AppDelegate.swift */,
 				53FDAE7C2A64C4AB006A902C /* SceneDelegate.swift */,
-				53FDAE7E2A64C4AB006A902C /* ViewController.swift */,
-				53FDAE802A64C4AB006A902C /* Main.storyboard */,
 				53FDAE832A64C4B1006A902C /* Assets.xcassets */,
 				53FDAE852A64C4B1006A902C /* LaunchScreen.storyboard */,
 				53FDAE882A64C4B1006A902C /* Info.plist */,
 			);
 			path = CadastroProject;
+			sourceTree = "<group>";
+		};
+		53FDAE8E2A64CA34006A902C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				53FDAE7E2A64C4AB006A902C /* ViewController.swift */,
+				53FDAE802A64C4AB006A902C /* Main.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		53FDAE8F2A64CA3C006A902C /* Cadastro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cadastro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
